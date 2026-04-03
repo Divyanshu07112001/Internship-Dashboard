@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'https://internship-dashboard-xiqa.onrender.com'
+  baseURL: 'https://internship-dashboard-xiqa.onrender.com/api',
 })
 
 instance.interceptors.request.use((config) => {
